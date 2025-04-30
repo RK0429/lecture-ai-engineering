@@ -10,6 +10,8 @@ python = "^3.11"
 dotenv = "^0.9.9"
 huggingface-hub = {extras = ["cli"], version = "^0.30.2"}
 pandas-stubs = "^2.2.3.250308"
+torch = {version = "^2.7.0+cu118", source = "pytorch-cu118"}
+torchvision = {version = "^0.22.0+cu118", source = "pytorch-cu118"}
 
 
 [tool.poetry.group.dev.dependencies]
